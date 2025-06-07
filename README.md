@@ -4,7 +4,7 @@ This Terraform module provisions an AWS SFTP server using AWS Transfer Family, a
 
 ## Overview
 
-This module automates the creation and management of an SFTP server on AWS, leveraging AWS Transfer Family. It is designed to make it easy to deploy a robust, secure, and scalable SFTP solution with minimal effort. The module handles the provisioning of the transfer server itself, as well as supporting resources such as IAM roles, user management, logging, and optionally, backend storage (S3 or EFS).
+This module automates the creation and management of an SFTP server on AWS, leveraging AWS Transfer Family. It is designed to make it easy to deploy a robust, secure, and scalable SFTP solution with minimal effort. The module handles the provisioning of the transfer server itself, as well as supporting resources such as IAM roles, user management, logging, and optionally, backend storage (S3).
 
 ## Features
 
@@ -20,4 +20,5 @@ This module automates the creation and management of an SFTP server on AWS, leve
 - **Tagging:** Supports resource tagging for cost allocation and organization.
 
 - **Architecture Diagram:**
+
   ![Architecture Diagram](./assets/transfer_family.png)
