@@ -10,10 +10,13 @@ This module automates the creation and management of an SFTP server on AWS, leve
 
 - **Creates an AWS Transfer Family (SFTP) Server:** Fully managed, scalable SFTP endpoint.
 - **User Management:** Optionally creates users and attaches IAM roles for access control.
-- **Integration with S3 or EFS:** Choose between Amazon S3 buckets or EFS file systems as the backend storage for file transfers.
-- **Custom Domain Support:** Optionally attach a custom hostname using AWS Route 53 and ACM certificates.
+- **Integration with S3 or EFS:** Choose between Amazon S3 buckets.
+
+- **Custom Domain Support:** Optionally attach a custom hostname using AWS Route 53.
+
 - **Logging:** Enables CloudWatch logging for monitoring SFTP activity.
-- **Security Controls:** Configurable security policies, VPC integration, and endpoint type (public or VPC-hosted).
+
+- **Security Controls:** Configurable security policies, VPC integration, and endpoint type (public).
 - **Tagging:** Supports resource tagging for cost allocation and organization.
 
 - **Architecture Diagram:**
