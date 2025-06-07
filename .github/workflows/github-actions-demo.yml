@@ -1,4 +1,4 @@
-name: GitHub Actions Golang
+name: GitHub Actions
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
@@ -6,14 +6,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-
-      - name: Check out repository code
-        uses: actions/checkout@v4
-
-      - name: Setup Go
-        uses: actions/setup-go@v4
-        with:
-          go-version: 1.20
-
-      - name: Display Go version
-        run: go version
